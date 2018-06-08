@@ -7,16 +7,16 @@ class GardenGnome
    @personality = personality
    @hat_color
  end
- attr_reader : name
- attr_writer : name
+ attr_reader :name
+ attr_writer :name
  
- attr_reader : age
- attr_writer : age
+ attr_reader :age
+ attr_writer :age
  
- attr_reader : gluten_allergy
- attr_writer : gluten_allergy
+ attr_reader :gluten_allergy
+ attr_writer :gluten_allergy
  
- attr_reader : personality
+ attr_reader :personality
  
  
 # def name
