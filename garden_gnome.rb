@@ -7,42 +7,53 @@ class GardenGnome
    @personality = personality
    @hat_color
  end
+ attr_reader : name
+ attr_writer : name
  
- def name
-   @name
- end
+ attr_reader : age
+ attr_writer : age
  
- def name=(name)
-   @name = name
- end
+ attr_reader : gluten_allergy
+ attr_writer : gluten_allergy
  
- def age
-   @age
- end
+ attr_reader : personality
  
- def age=(age)
-   @age = age
- end
  
- def gluten_allergy
-   @gluten_allergy
- end
+# def name
+#   @name
+# end
  
- def gluten_allergy=(gluten_allergy)
-   @gluten_allergy = gluten_allergy
- end
+# def name=(name)
+#   @name = name
+# end
  
- def personality
-   @personality
- end
+# def age
+#   @age
+# end
  
- def hat_color
-   @hat_color
- end
+# def age=(age)
+#   @age = age
+# end
  
- def hat_color=(hat_color)
-   @hat_color = hat_color
- end
+# def gluten_allergy
+#   @gluten_allergy
+# end
+ 
+# def gluten_allergy=(gluten_allergy)
+#   @gluten_allergy = gluten_allergy
+# end
+ 
+# def personality
+#   @personality
+# end
+ 
+# def hat_color
+#   @hat_color
+# end
+ 
+# def hat_color=(hat_color)
+#   @hat_color = hat_color
+# end
  
  def gnaw
    return "Gnawing on a tree!!!"
@@ -57,5 +68,10 @@ class GardenGnome
    end
  end
  
- test_gnome = GardenGnome.new
+# test_gnome = GardenGnome.new
+
+gnome1 = GardenGnome.new
+gnome2 = GardenGnome.new("Walter the Worst")
+gnome3 = GardenGnome.new("James the Jerk", 3421)
+gnome4 = GardenGnome.new("Alfred the Abhorrent", 579, true)
  
